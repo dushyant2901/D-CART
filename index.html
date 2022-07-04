@@ -17,9 +17,35 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h2>hello</h2>
+    <!-- modal -->
+    <div class="newsletter-overlay">
+      <div class="newsletter-content">
+        <article class="newsletter-img-container">
+          <img
+            src="./assets/images/newsletter.png"
+            alt="newsletter img"
+            class="img newsletter-img"
+          />
+        </article>
+        <article class="newsletter-info">
+          <button class="btn btn-close newsletter-close-btn">1</button>
+          <h4 class="newsletter-title">Subscribe Newsletter.</h4>
+          <p class="newsletter-text">
+            Subscribe the <span class="bold-text">Anon</span> to get latest
+            products and discount update.
+          </p>
+          <form class="form">
+            <input
+              type="email"
+              class="form-input text-small"
+              placeholder="Email Address"
+            />
+            <button type="submit" class="btn btn-submit">subscribe</button>
+          </form>
+        </article>
+      </div>
     </div>
+
     <script src="./assets/js/index.js"></script>
   </body>
 </html>
